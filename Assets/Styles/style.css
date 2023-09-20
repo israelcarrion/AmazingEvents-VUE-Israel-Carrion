@@ -1,0 +1,183 @@
+#app {
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+
+/*---------------------------HEADER-----------------------------*/
+header {
+    background-color: #fed2e5;
+    border-bottom: 1px solid #8f6277;
+}
+
+.logotipo {
+    width: 10rem;
+}
+
+/*---------------------------MAIN-------------------------------*/
+main {
+    background-color: #cd9cb2;
+    padding: 2rem;
+}
+
+.banner {
+    width: 100%;
+}
+
+h5 {
+    font-size: 2rem !important;
+}
+
+.card {
+    width: 18rem;
+    background-color: #edbad1 !important;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.card-img-top {
+    height: 13rem;
+    object-fit: cover;
+}
+
+.tituloTarjetas {
+    font-size: 1.5rem !important;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.precio {
+    margin: 0;
+}
+
+.botonDetalles {
+    text-decoration: none;
+    color: black;
+    border: 1px solid #8f6277;
+    padding: 0.5rem;
+}
+
+.cajaForm {
+    margin-top: 2rem;
+}
+
+#message {
+    resize: none;
+    height: 10rem;
+}
+
+.tablastats {
+    margin-top: 2rem;
+    background-color: #fed2e5;
+    border: 1px solid #8f6277;
+    width: 100%;
+}
+
+tr>td, th {
+    height: 4rem;
+    border: 1px solid #8f6277;
+    text-align: center;
+}
+
+tr>td {
+    padding: 0rem 0.5rem;
+}
+
+th{
+    padding-left: 1rem;
+    background-color: #edbad1;
+}
+span{
+    font-weight:700 ;
+}
+/*---------------------------FOOTER-------------------------------*/
+
+footer {
+    background-color: #fed2e5;
+    height: 3rem;
+    padding: 0rem 2rem;
+    border-top: 1px solid #8f6277;
+}
+
+.red {
+    width: 2rem;
+    height: 2rem;
+    object-fit: cover;
+    filter:sepia(50%);
+}
+
+@media (min-width: 768px) { /*---------------TABLET-------------*/
+    
+    /*-----------------------HEADER-----------------------------*/
+    .nav-link {
+        border: 1px solid #8f6277 !important;
+        margin: 0rem 0.5rem;
+    }
+
+    /*-----------------------MAIN-------------------------------*/
+    .carousel-inner {
+        height: 15rem;
+    }
+
+    h5 {
+        font-size: 3rem !important;
+    }
+    
+    .busqueda {
+        width: 25rem !important;
+    }
+    
+    .banner {
+        height: 15rem;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .carousel-caption {
+        text-align: start;
+    }
+
+    .cajaDos {
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+    }
+
+    .cajaForm {
+        display: flex;
+        justify-content: center;
+        padding: 3rem;
+        margin-top: 0rem;
+    }
+
+    .formulario {
+        width: 40rem;
+    }
+
+    .tablastats {
+        width: 65% !important;
+    }
+
+    tr>td, th {
+        height: 2.5rem;
+    }
+
+    #cardDetalles {
+        background-color: #edbad1;
+        flex-direction: row;
+        width: 45rem;
+    }
+
+    #imgdetalle {
+        border-radius: 0.3rem;
+    }
+
+    .card-title {
+        text-align: center;
+        text-decoration: underline;
+    }
+}

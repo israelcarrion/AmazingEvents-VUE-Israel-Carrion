@@ -35,4 +35,7 @@ createApp({
       this.filtrados = this.filtroSearch(filtradosCheck, this.inputSearch);
     },
   },
+  computed:{
+    
+  }
 }).mount("#app");
